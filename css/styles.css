@@ -582,10 +582,26 @@ progress {
   height: 80px;
 }
 
+
 .list-inline-item p {
   font-size: 14px;
   text-align: center;
   margin-top: 0.5rem;
+}
+
+.list-inline-ite {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  margin-left: 10px;
+  border-radius: 20px;
+  border: rgb(197, 197, 197) 1px solid;
+}
+.list-inline-ite img {
+  height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
 }
 
 .initialism {
