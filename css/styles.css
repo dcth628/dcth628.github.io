@@ -598,9 +598,9 @@ progress {
   border: rgb(197, 197, 197) 1px solid;
 }
 .list-inline-ite img {
-  height: 100%;
-    width: 100%;
-    object-fit: cover;
+  height: 300px;
+    width: 300px;
+    /* object-fit: cover; */
     border-radius: 20px;
 }
 
