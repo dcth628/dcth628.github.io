@@ -1,334 +1,268 @@
-<!--
-  Hello!
-  -
-  Simplefolio is a clean and responsive portfolio template for Developers!
-  Created by Jacobo Martinez.
-  -
-  Github Repo: https://github.com/cobiwave/simplefolio/
-  Readme: https://github.com/cobiwave/simplefolio/README.md
-  -
-  For business & inquires, contact me -> jacobojavier98@gmail.com
--->
 <!DOCTYPE html>
-<html lang="en" class="sr">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/png" href="./src/assets/favicon.png" />
-
-    <!-- Todo: put here your site title -->
-    <title>Dean Hsieh | Developer</title>
-    <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="dcth628, Dean Hsieh, JavScript Python HTML CSS" />
-    <!-- Todo: improve your SEO by adding a small description of you -->
-    <meta name="description" content="Dean Hsieh | Developer" />
-
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="stylesheet" href="./src/styles.scss" />
-    <script
-      defer
-      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
-    ></script>
-  </head>
-
-  <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
-  <body>
-    <div id="top"></div>
-
-
-    <!-- **** Hero Section **** -->
-    <section id="hero" class="jumbotron">
-      <div class="container">
-        <h1 class="hero-title load-hidden">
-          Hi, my name is <span class="text-color-main">Dean Hsieh</span>
-          <br />
-          I'm a Software Engineer.
-        </h1>
-        <p class="hero-cta load-hidden">
-          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
-            >Know more</a
-          >
-        </p>
-      </div>
-    </section>
-    <!-- /END Hero Section -->
-
-    <!-- **** About Section **** -->
-    <section id="about">
-      <div class="container">
-        <h2 class="section-title load-hidden">About me</h2>
-        <div class="row about-wrapper">
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__image load-hidden">
-              <img
-                alt="Profile Image"
-                class="img-fluid rounded shadow-lg"
-                height="auto"
-                width="300px"
-                src="./src/assets/profile.jpg"
-                alt="Profile Image"
-              />
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Dean Hsieh's Portfolio</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Dean Hsieh</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#project">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li> -->
+                </ul>
             </div>
-          </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__info load-hidden">
-              <p class="about-wrapper__info-text">
-                Hello! My name is Dean Hsieh (it is pronounced as Xie) <br>
-                <br>
-                Transitioning from project management to web development was a natural progression for me due to my deep interest in technology and my desire for hands-on creativity. To achieve this transition, I enrolled in a coding bootcamp to gain a strong understanding in coding, including HTML, CSS, and JavaScript.
-                <br>
-                <br>
-                My background in project management has provided me with a strong foundation in communication, time management, and problem-solving skills that seamlessly integrate into my new role. As a web developer, I focus on crafting solutions that are user-centric and leveraging my project management experience to drive efficiency and success.
-                <br>
-                <br>
-                This transition is not just a career change, but a journey of growth and reinvention. With every line of code, I am shaping my future and making meaningful contributions. I am ready to collaborate with diverse teams and contribute solutions that leave lasting impacts.
-              </p>
-              <br>
-              <p class="about-wrapper__info-text">
-                Skills
-                <ul class="list-inline dev-icons">
-                  <li class="list-inline-item"><img src="./src/assets/javascript.png"/><p>JavaScrip</p></li>
-                  <li class="list-inline-item"><img src="./src/assets/python-5.svg"/><p>Python</p></li>
-                  <li class="list-inline-item"><img src="./src/assets/html-1.svg"/><p>HTML5</p></li>
-                  <li class="list-inline-item"><img src="./src/assets/css-3.svg"/><p>CSS3</p></li>
-                  <li class="list-inline-item"><img src="./src/assets/recat.svg"/><p>React</p></li>
-                  <li class="list-inline-item"><img src="./src/assets/nodejs.png"/><p>Node.js</p></li>
-                  <li class="list-inline-item"><img src="./src/assets/redux.svg"/><p>Redux</p></li>
-                  <li class="list-inline-item"><img src="./src/assets/sequelize.svg"/><p>Sequelize</p></li>
-                  <li class="list-inline-item"><img src="./src/assets/postgresql.svg"/><p>PostgrSQL</p></li>
-                  <li class="list-inline-item"><img src="./src/assets/flask.png"/><p>Flask</p></li>
-                  <li class="list-inline-item"><img src="./src/assets/express.png"/><p>Express</p></li>
-                  <li class="list-inline-item"><img src="./src/assets/SQLAlchemy.svg"/><p>SQLAlchemy</p></li>
-              </ul>
-              </p>
-              <span class="d-flex mt-3">
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--resume"
-                  href="./src/assets/Dean_Hsieh_Resume.pdf"
-                >
-                  View Resume
-                </a>
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- /END About Section -->
-
-    <!-- **** Projects Section **** -->
-    <section id="projects">
-      <div class="container">
-        <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">Projects</h2>
-
-          <!-- Notice: each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Tasty Nutrition</h3>
-                <div>
-                  <p class="mb-4">
-                    Looking for a helpful tool to track your diet and save your favorite recipes? Tasty Nutrition is the one you are looking for. The website offers a user-friendly platform where you can create custom ingredients, track nutrition facts, and make informed choices about your diet. With comprehensive nutrition information for personalized recipes, including calories, protein, carbs, and fats, you'll have all the information you need to make healthy decisions.
-                  </p>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Dean
+                        <span class="text-primary">Hsieh</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                         San Francsico, CA · Project Manager · Software Engineer
+                    </div>
+                    <p class="lead mb-5">Hi, I'm Dean, a Project Manager who has embarked on an exciting career change in
+                        the world of Software Engineering. With a solid foundation in managing complex projects and collaborating
+                        with cross-functional teams, I'm now leveraging my skills to create innovative software solutions. Whether
+                        it's building scalable web applications or crafting intuitive user interfaces, I love turning ideas into
+                        reality. Let me help you bring your vision to life and make a impact in the digital landscape.</p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://www.linkedin.com/in/deanhsieh/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/dcth628" target="_blank"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="mailto:dcth628@gamil.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+                        <a class="social-icon" href="assets/Dean_Hsieh_Resume.pdf" target="_blank"><i class="	far fa-file-alt"></i></a>
+                        <!-- <a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a>
+                        <a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a> -->
+                    </div>
                 </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="https://tasty-nutrition.onrender.com/"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="https://github.com/dcth628/tasty-nutrition"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="./src/assets/tasty1.png"
-                    />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-
-          <!-- Notice: each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">SpotiPy</h3>
-                <div>
-                  <p class="mb-4">
-                    Introducing SpotiPY - a vibrant platform that inspiration by Spotify! Share your music, create playlists and albums with ease, and enjoy our music player feature.
-                  </p>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Programming Languages & Tools</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><img src="assets/img/javascript.png"/><p>JavaScrip</p></li>
+                        <li class="list-inline-item"><img src="assets/img/python-5.svg"/><p>Python</p></li>
+                        <li class="list-inline-item"><img src="assets/img/html-1.svg"/><p>HTML</p></li>
+                        <li class="list-inline-item"><img src="assets/img/css-3.svg"/><p>CSS</p></li>
+                        <li class="list-inline-item"><img src="assets/img/recat.svg"/><p>React</p></li>
+                        <li class="list-inline-item"><img src="assets/img/nodejs.png"/><p>Node.js</p></li>
+                        <li class="list-inline-item"><img src="assets/img/redux.svg"/><p>Redux</p></li>
+                        <li class="list-inline-item"><img src="assets/img/sequelize.svg"/><p>Sequelize</p></li>
+                        <li class="list-inline-item"><img src="assets/img/postgresql.svg"/><p>PostgrSQL</p></li>
+                        <li class="list-inline-item"><img src="assets/img/flask.png"/><p>Flask</p></li>
+                        <li class="list-inline-item"><img src="assets/img/express.png"/><p>Express</p></li>
+                        <li class="list-inline-item"><img src="assets/img/SQLAlchemy.svg"/><p>SQLAlchemy</p></li>
+                        <!-- <li class="list-inline-item"><i class="fab fa-angular"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-less"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-gulp"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-grunt"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-npm"></i></li> -->
+                    </ul>
+                    <div class="subheading mb-3">Workflow</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Project Management Expertise
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Cross-functional Collaboration
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Agile Development & Scrum
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Software Development Proficiency
+                        </li>
+                    </ul>
                 </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="https://spotipy-music.onrender.com/"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="https://github.com/dcth628/group-project"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="./src/assets/spotipy3.png"
-                    />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-
-          <!-- Notice: each .row is a project -->
-          <!-- <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 2</h3>
-                <div>
-                  <p class="mb-4">
-                    If the project was collaborative, reflect it in this description, that will demonstrate communication and/or leadership skills.
-                    Additionally, if you made use of the mastery of a second language, it will reflect on you professionalism.
-                  </p>
+            </section>
+            <hr class="m-0" />
+            <!-- Project-->
+            <section class="resume-section" id="project">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Projects</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Tasty Nutrition</h3>
+                            <div class="subheading mb-3">JavaScript | Python | Flask | React | Redux | AWS S3</div>
+                            <ul class="list-inline project-pic">
+                                <li class="list-inline-ite"><img src="assets/img/tasty1.png"/></li>
+                                <li class="list-inline-ite"><img src="assets/img/tasty2.png"/></li>
+                                <li class="list-inline-ite"><img src="assets/img/tasty3.png"/></li>
+                            </ul>
+                            <div>Looking for a helpful tool to track your diet and save your favorite recipes? Tasty Nutrition is the one you are looking for. The website offers a user-friendly platform where you can create custom ingredients, track nutrition facts, and make informed choices about your diet. With comprehensive nutrition information for personalized recipes, including calories, protein, carbs, and fats, you'll have all the information you need to make healthy decisions.</div>
+                        </div>
+                        <div class="flex-shrink-0">
+                            <div class="text-primary"><a href="https://tasty-nutrition.onrender.com/" target="_blank">Live Site</a></div>
+                            <div class="text-primary"><a href="https://github.com/dcth628/tasty-nutrition" target="_blank">Github</a></div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between  mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">SpotiPy</h3>
+                            <div class="subheading mb-3">JavaScript | Python | Flask | React | Redux | SQLAlchemy</div>
+                            <ul class="list-inline dev-icons">
+                                <li class="list-inline-ite"><img src="assets/img/spotipy1.png"/></li>
+                                <li class="list-inline-ite"><img src="assets/img/spotipy2.png"/></li>
+                                <li class="list-inline-ite"><img src="assets//img/spotipy3.png"/></li>
+                            </ul>
+                            <div>Introducing SpotiPY - a vibrant platform that inspiration by Spotify! Share your music, create playlists and albums with ease, and enjoy our music player feature.</div>
+                        </div>
+                        <div class="flex-shrink-0">
+                            <div class="text-primary"><a href="https://spotipy-music.onrender.com/" target="_blank">Live Site</a></div>
+                            <div class="text-primary"><a href="https://github.com/dcth628/group-project" target="_blank">Github</a></div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">DeanBnB</h3>
+                            <div class="subheading mb-3">JavaScript | Express | Sequelize | React | Redux</div>
+                            <ul class="list-inline dev-icons">
+                                <li class="list-inline-ite"><img src="assets/img/bnb1.png"/></li>
+                                <li class="list-inline-ite"><img src="assets/img/bnb2.png"/></li>
+                                <li class="list-inline-ite"><img src="assets/img/bnb3.png"/></li>
+                            </ul>
+                            <div>I've created a full-stack application mirroring Airbnb's functionality. Users can host properties, and leave reviews. This project showcases my end-to-end development skills, encompassing user authentication, property management, and a review system, delivering a user-friendly platform.</div>
+                        </div>
+                        <div class="flex-shrink-0">
+                            <div class="text-primary"><a href="https://deanbnb.onrender.com/" target="_blank">Live Site</a></div>
+                            <div class="text-primary"><a href="https://github.com/dcth628/deanbnb" target="_blank">Github</a></div>
+                        </div>
+                    </div>
                 </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="#!"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project.jpg"
-                    />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Project Manager</h3>
+                            <div class="subheading mb-3">U.S. Deparment of Health and Human Services</div>
+                            <p>As a Project Manager at the HHS, I provided professional support to the Region 9 office of Head Start, overseeing the administration of discretionary grants funded through the Office of Head Start. I coordinated staff travel, generated reports, and maintained communication logs. These experiences showcase my proficiency in project management, data analysis, and effective communication, all of which are relevant to engineering and project-oriented roles.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">October 2022 - Present</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Administrative Assistant</h3>
+                            <div class="subheading mb-3">MakerLab</div>
+                            <p>As an Administrative Assistant at MakerLabs in Vancouver, BC, I supported project managers through effective scheduling and coordination, managed inventory systems, and improved event attendance by planning and executing various events. My organizational and time management skills were key assets in ensuring project efficiency and successful event planning.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Janunary 2022 - October 2022</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Quality Assurance Manager</h3>
+                            <div class="subheading mb-3">G-SHANK </div>
+                            <p>As a Quality Assurance Manager at G-Shank in Taoyuan, Taiwan, I ensured client satisfaction and product quality by managing vendors, streamlining processes to reduce freight damage, and implementing quality improvement measures. My role involved creating SOPs, leading quality meetings, and achieving high-quality scores in daily stand-ups with cross-functional teams.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">June 2020 - December 2021</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Store Manager</h3>
+                            <div class="subheading mb-3">PAPABUBBLE San Francisco</div>
+                            <p>As a Store Manager at PAPABUBBLESF in the San Francisco Bay Area, I oversaw the establishment of the storefront, managed a team that attracted major corporate clients, and organized outreach events, enhancing brand visibility. My client-centric approach led to high customer satisfaction ratings, demonstrating my ability to manage projects and build strong client relationships.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">April 2013 - June 2019</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Interests-->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Interests</h2>
+                    <p>In addition to my role as a dedicated coder, I lead an active life outdoors, especially during California's sunny seasons. Hiking, backpacking, and camping are my preferred ways to immerse myself in nature and find inspiration.</p>
+                    <p>During indoor moments, I'm an avid follower of science fiction and fantasy in the cinematic and television realms, where I let my imagination free. Furthermore, my passion for culinary arts led me to create 'Tasty Nutrition,' a repository of my delectable recipes.</p>
+                    <p class="mb-0">When not engaged in coding, I invest a significant portion of my leisure time exploring the latest technological breakthroughs in the coding world. This well-rounded blend of outdoor adventures, imaginative escapades, culinary creativity, and tech exploration fuels my journey both professionally and personally.</p>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Awards-->
+            <!-- <section class="resume-section" id="awards">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Awards & Certifications</h2>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Google Analytics Certified Developer
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Mobile Web Specialist - Google Certification
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            1
+                            <sup>st</sup>
+                            Place - University of Colorado Boulder - Emerging Tech Competition 2009
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            1
+                            <sup>st</sup>
+                            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            2
+                            <sup>nd</sup>
+                            Place - University of Colorado Boulder - Emerging Tech Competition 2008
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            1
+                            <sup>st</sup>
+                            Place - James Buchanan High School - Hackathon 2006
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            3
+                            <sup>rd</sup>
+                            Place - James Buchanan High School - Hackathon 2005
+                        </li>
+                    </ul>
+                </div>
+            </section> -->
         </div>
-      </div>
-    </section> -->
-    <!-- /END Projects Section -->
-
-    <!-- **** Contact Section **** -->
-    <section id="contact">
-      <div class="container">
-        <h2 class="section-title">Contact</h2>
-        <div class="contact-wrapper load-hidden">
-          <p class="contact-wrapper__text"></p>
-          <a
-            rel="noreferrer"
-            target="_blank"
-            class="cta-btn cta-btn--resume"
-            href="mailto:dcth628@gamil.com"
-            >Email</a
-          >
-        </div>
-      </div>
-    </section>
-    <!-- /END Contact Section -->
-
-    <!-- **** Footer Section **** -->
-    <footer class="footer navbar-static-bottom">
-      <div class="container">
-        <a rel="noreferrer" href="#top" class="back-to-top">
-          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
-        </a>
-        <div class="social-links">
-          <!-- <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
-          </a> -->
-          <a rel="noreferrer" href="https://www.linkedin.com/in/deanhsieh/" target="_blank">
-            <i class="fa fa-linkedin fa-inverse"></i>
-          </a>
-          <a rel="noreferrer" href="https://github.com/dcth628" target="_blank">
-            <i class="fa fa-github fa-inverse"></i>
-          </a>
-        </div>
-
-        <hr />
-
-        <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
-        <p class="footer__text">
-          © 2024 - developed by
-          <a rel="noreferrer" href="https://www.linkedin.com/in/deanhsieh/" target="_blank"
-            >Dean Hsieh</a
-          >
-        </p>
-
-    <script defer type="module" src="./src/index.js"></script>
-  </body>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
