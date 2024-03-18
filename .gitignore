@@ -2,3 +2,5 @@
 /examples
 /dist
 README.md
+.parcel-cache
+LICENSE.md
